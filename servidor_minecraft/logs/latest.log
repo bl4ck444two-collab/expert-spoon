@@ -1,0 +1,95 @@
+[15:31:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[15:31:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[15:31:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:31:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[15:31:39] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[15:31:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:31:46] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[15:31:46] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[15:31:47] [ServerMain/INFO]: No existing world data, creating new world
+[15:31:48] [ServerMain/INFO]: Loaded 1290 recipes
+[15:31:49] [ServerMain/INFO]: Loaded 1399 advancements
+[15:31:49] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 9427ms.
+[15:31:49] [Server thread/INFO]: Starting minecraft server version 1.21
+[15:31:49] [Server thread/INFO]: Loading properties
+[15:31:49] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[15:31:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:31:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:31:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:31:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[15:31:51] [Server thread/INFO]: Default game type: SURVIVAL
+[15:31:51] [Server thread/INFO]: Generating keypair
+[15:31:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:31:51] [Server thread/INFO]: Using epoll channel type
+[15:31:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:31:51] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[15:31:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:31:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:31:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:31:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:31:51] [Server thread/INFO]: Preparing level "world"
+[15:32:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:32:09] [Server thread/INFO]: Time elapsed: 6175 ms
+[15:32:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:32:12] [Server thread/INFO]: Time elapsed: 2454 ms
+[15:32:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:32:12] [Server thread/INFO]: Time elapsed: 545 ms
+[15:32:12] [Server thread/INFO]: [spark] Starting background profiler...
+[15:32:13] [Server thread/INFO]: Done preparing level "world" (21.295s)
+[15:32:13] [Server thread/INFO]: Running delayed init tasks
+[15:32:13] [Server thread/INFO]: Done (35.184s)! For help, type "help"
+[15:32:13] [Server thread/INFO]: *************************************************************************************
+[15:32:13] [Server thread/INFO]: This is the first time you're starting this server.
+[15:32:13] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[15:32:13] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[15:32:13] [Server thread/INFO]: *************************************************************************************
+[15:32:13] [Server thread/INFO]: Timings Reset
+[15:36:07] [User Authenticator #0/INFO]: UUID of player AL5PT is 3678aaa4-193c-3005-aadb-5e617b75fe27
+[15:36:10] [Server thread/INFO]: AL5PT joined the game
+[15:36:10] [Server thread/INFO]: AL5PT[/192.168.196.128:52768] logged in with entity id 139 at ([world]0.5, 69.0, 17.5)
+[15:37:44] [Server thread/INFO]: AL5PT has made the advancement [Stone Age]
+[15:38:01] [Server thread/INFO]: AL5PT has made the advancement [Getting an Upgrade]
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output - file plugins/spark/tmp/spark-140d841ca88-profile-data.jfr.tmp does not exist!
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:217)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:145)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: Caused by: java.nio.file.NoSuchFileException: plugins/spark/tmp/spark-140d841ca88-profile-data.jfr.tmp
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:224)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:309)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:369)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:75)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:204)
+[15:41:13] [spark-async-sampler-worker-thread/WARN]: 	... 7 more
+[15:43:40] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[15:43:40] [Server thread/INFO]: AL5PT lost connection: Server is restarting
+[15:43:40] [Server thread/INFO]: AL5PT left the game
+[15:43:40] [Server thread/INFO]: Stopping server
+[15:43:40] [Server thread/INFO]: Saving players
+[15:43:40] [Server thread/INFO]: Saving worlds
+[15:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:43:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:43:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:43:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1736 block chunks, 172 entity chunks, 1 poi chunks in world 'world' in 1.23s
+[15:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[15:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:43:42] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.22s
+[15:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
